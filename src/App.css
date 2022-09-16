@@ -1,0 +1,19 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.gridSideNavbar {
+  background: #ffffff;
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  height: 99vh !important;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: sticky;
+}
+
+.gridContantbar {
+  background: #f5f6f8;
+}

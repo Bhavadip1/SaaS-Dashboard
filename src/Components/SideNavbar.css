@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.Gridmain {
+  width: 100%;
+  height: fit-content;
+}
+
+.textHead {
+  font-family: "Josefin Sans", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 25px !important;
+  color: #109cf1;
+  margin: 15px !important;
+}
+
+.Divider {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  top: 60px;
+  background: #ebeff2;
+}
+
+.avtar {
+  margin-top: 25px;
+  margin-left: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.textmain {
+  margin-bottom: 10px;
+}
+
+.textTitle {
+  margin-left: 20px !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  color: #192a3e !important;
+}
+
+.textmail {
+  margin-left: 20px !important;
+  font-family: "Poppins" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  line-height: 16px !important;
+  letter-spacing: 0.01em !important;
+  color: #90a0b7 !important;
+}
+
+.btngroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.item {
+  border: none !important;
+  cursor: pointer;
+  margin-left: 5px !important;
+  margin-top: 20px !important;
+}
+
+.activee {
+  color: #109cf1 !important;
+}
+
+.icon {
+  color: #c2cfe0;
+}
+
+.item :active {
+  color: #109cf1;
+}
+
+.text {
+  padding-left: 15px;
+  font-family: "Poppins" !important;
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
+  color: #334d6e;
+  text-transform: none;
+}
+
+.Dividersecond {
+  margin-top: 35px !important;
+  margin-bottom: 35px;
+}
+
+.Buttom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn_buttom {
+  border: none !important;
+}

@@ -1,0 +1,189 @@
+.Containt_main {
+  display: flex;
+  justify-content: space-between;
+  height: 61px;
+  background: #ffffff;
+}
+.Search_bar {
+  padding-left: 35px;
+}
+
+.search_icon {
+  padding-top: 2px;
+  color: #c2cfe0;
+}
+
+.Search_bar input {
+  padding-top: 5px;
+  font-family: "Poppins";
+  color: #90a0b7;
+}
+.notification_icon {
+  color: #c2cfe0;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.Iconbutton {
+  margin-right: 17px !important;
+  padding: 0px !important;
+}
+
+.css-1tcs2i1-MuiInputBase-root-MuiInput-root:before {
+  border: none !important;
+}
+
+.css-1tcs2i1-MuiInputBase-root-MuiInput-root:after {
+  border: none !important;
+}
+
+.box1 {
+  position: absolute;
+  top: 5.5rem;
+  left: 28rem;
+  background: #ffffff;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  height: 48rem;
+}
+
+.box2 {
+  width: 45rem;
+  height: 48rem;
+}
+
+.select > fieldset {
+  border: none !important;
+}
+
+.select > div {
+  padding: 0%;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px;
+}
+
+.typo_task {
+  color: #334d6e !important;
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+}
+
+.typo_show {
+  font-family: "Poppins" !important;
+  color: #707683;
+}
+
+.typo_show em {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  color: #109cf1;
+}
+
+.divider_third {
+  position: absolute;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  background: #ebeff2;
+}
+
+.progress_bar {
+  width: 42rem !important;
+  margin-left: 19px !important;
+  border-radius: 50px;
+  background-color: #ebeff2 !important;
+}
+
+.progress_bar > span {
+  background-color: #2ed47a !important;
+}
+
+.typo_date {
+  margin-top: 19px;
+  margin-left: 19px;
+}
+
+.typo_date_1 {
+  font-family: "Poppins" !important;
+  color: #192a3e;
+  font-weight: 500 !important;
+}
+
+.dateday {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.typo_day {
+  font-family: "Poppins" !important;
+  color: #334d6e;
+  opacity: 0.5;
+}
+
+.date {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_1 {
+  margin-left: 29px;
+  margin-top: 20px;
+}
+.card_content_1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.typo_diffrent {
+  color: #109cf1;
+  font-size: 14px !important;
+}
+
+.typo_date_2 {
+  font-family: "Poppins" !important;
+  color: #334d6e;
+  opacity: 0.5;
+  font-size: 14px !important;
+}
+
+.typo_diffrent_2 {
+  width: 24px;
+  height: 24px;
+  background-color: #109cf1;
+  border-radius: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 14px !important;
+  align-items: center;
+}
+
+.typo_card_heading {
+  font-family: "Poppins" !important;
+  font-weight: 500 !important;
+  color: #323c47;
+}
+
+.typo_card_left_head {
+  font-family: "Poppins" !important;
+  font-size: 12px !important;
+  color: #90a0b7;
+}
+
+.typo_card_date {
+  font-family: "Poppins";
+  font-size: 13px;
+  margin-left: 18px !important;
+  color: #707683;
+  padding-bottom: 32px;
+}
