@@ -24,6 +24,7 @@ const SideNavbar = () => {
       <Grid className="Gridmain">
         <div>
           <Typography className="textHead">SaaS Kit</Typography>
+          <Divider className="dividersecond" />
         </div>
 
         <div className="avtar">
@@ -64,8 +65,8 @@ const SideNavbar = () => {
             <Typography className="text">Deals</Typography>
           </Button>
         </ButtonGroup>
-        <Divider className="Dividersecond" />
         <div>
+          <Divider className="dividersecond" />
           <ButtonGroup className="btngroup">
             <Button className="btn_buttom">
               <MoreHorizIcon className="icon" />
@@ -75,7 +76,7 @@ const SideNavbar = () => {
         </div>
       </Grid>
       <Button className=" item ">
-        <img src={toggle} className="icon" />
+        <img src={toggle} className="icon" alt="icontoggle" />
         <Typography className="text">Toggle sidebar</Typography>
       </Button>
     </>
