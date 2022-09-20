@@ -10,6 +10,7 @@ import {
   Card,
   CardActionArea,
   Button,
+  Grid,
 } from "@mui/material";
 import LinearProgress from "@mui/material/LinearProgress";
 import IconButton from "@mui/material/IconButton";
@@ -24,18 +25,21 @@ import image from "../Profile/image.png";
 import EllipseG from "../Profile/icon/EllipseG.jpg";
 import EllipseY from "../Profile/icon/EllipseY.png";
 import Ellipse2 from "../Profile/icon/Ellipse2.png";
+import EllipseRed from "../Profile/icon/EllipseRed.png";
+import EllipseGreen from "../Profile/icon/EllipseGreen.png";
+import EllipseYellow from "../Profile/icon/EllipseYellow.png";
 import ModeEditIcon from "@mui/icons-material/ModeEdit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { Line } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 import Chart from "chart.js/auto";
-import { CategoryScale } from "chart.js";
-Chart.register(CategoryScale);
+import { CategoryScale, ArcElement, Tooltip, Legend } from "chart.js";
+Chart.register(CategoryScale, ArcElement, Tooltip, Legend);
 
 const data = {
   labels: ["1 Dec", "8 Dec", "16 Dec", "31 Dec"],
   datasets: [
     {
-      labels: "database",
       data: [50, 100, 90, 160, 60, 160, 150, 200],
       fill: true,
       backgroundColor: "rgba(16, 156, 241, 0.1)",
@@ -72,6 +76,32 @@ const options = {
         drawTicks: false,
         drawBorder: false,
       },
+    },
+  },
+};
+
+const data2 = {
+  datasets: [
+    {
+      data: [10, 60, 30],
+
+      borderColor: ["rgba(255,206,86,0.2)"],
+      backgroundColor: [
+        "rgba(247, 104, 91, 1)",
+        "rgba(46, 212, 122, 1)",
+        "rgba(255, 185, 70, 1)",
+      ],
+      pointBackgroundColor: "rgba(255,206,86,0.2)",
+    },
+  ],
+};
+
+const options2 = {
+  aspectRatio: 1.2,
+  cutout: 115,
+  layout: {
+    padding: {
+      right: 10,
     },
   },
 };
@@ -296,7 +326,56 @@ const Containtbar = () => {
               <Line data={data} options={options} />
             </div>
           </div>
-          <div className="box1_2_2">Bhavadip</div>
+          <div className="box1_2_2">
+            <div className="dropdown2">
+              <Typography className="typo_deals">Tasks </Typography>
+              <Typography className="typo_show">
+                Show: <em>This month </em>
+                <Select className="select"></Select>
+              </Typography>
+            </div>
+            <Divider variant="fullwidth" />
+
+            <div className="doughnut_graph">
+              <Grid container>
+                <Grid item xs={8}>
+                  <Doughnut data={data2} options={options2} />
+                </Grid>
+                <Grid className="doughnutlabelgrid" item xs={4}>
+                  <div className="label">
+                    <img
+                      src={EllipseYellow}
+                      alt="Ellipse2"
+                      className="doughnutlabelgrid_image"
+                    />
+                    <Typography className="doughnutlabelgrid_typo">
+                      Active
+                    </Typography>
+                  </div>
+                  <div className="label">
+                    <img
+                      src={EllipseGreen}
+                      alt="Ellipse2"
+                      className="doughnutlabelgrid_image"
+                    />
+                    <Typography className="doughnutlabelgrid_typo">
+                      Completed
+                    </Typography>
+                  </div>
+                  <div className="label">
+                    <img
+                      src={EllipseRed}
+                      alt="Ellipse2"
+                      className="doughnutlabelgrid_image"
+                    />
+                    <Typography className="doughnutlabelgrid_typo">
+                      Ended
+                    </Typography>
+                  </div>
+                </Grid>
+              </Grid>
+            </div>
+          </div>
         </Box>
       </Box>
     </>
