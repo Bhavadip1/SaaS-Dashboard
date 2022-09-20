@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="App">
       <Grid container>
-        <Grid xs={3} className="gridSideNavbar">
+        <Grid xl={3} xs={2} className="gridSideNavbar">
           <SideNavbar />
         </Grid>
-        <Grid xs={9} className="gridContantbar">
+        <Grid xl={9} xs={10} className="gridContantbar">
           <Containtbar />
         </Grid>
       </Grid>

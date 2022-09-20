@@ -97,7 +97,7 @@
 }
 
 .progress_bar {
-  width: 42rem !important;
+  width: 42rem;
   margin-left: 19px !important;
   border-radius: 50px;
   background-color: #ebeff2 !important;

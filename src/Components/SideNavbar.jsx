@@ -8,6 +8,7 @@ import {
   Grid,
 } from "@mui/material";
 import "./SideNavbar.css";
+import "../Components/Responsive.css";
 import profile from "../Profile/profile.png";
 import toggle from "../Profile/icon/toggle.png";
 import DashboardOutlinedIcon from "@mui/icons-material/DashboardOutlined";

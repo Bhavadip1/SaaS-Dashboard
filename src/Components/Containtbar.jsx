@@ -97,6 +97,7 @@ const data2 = {
 };
 
 const options2 = {
+  responsive: true,
   aspectRatio: 1.2,
   cutout: 115,
   layout: {
