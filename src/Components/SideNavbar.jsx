@@ -23,7 +23,7 @@ const SideNavbar = () => {
   return (
     <>
       <Grid className="Gridmain">
-        <div>
+        <div className="textHead_main">
           <Typography className="textHead">SaaS Kit</Typography>
           <Divider className="dividersecond" />
         </div>

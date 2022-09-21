@@ -6,11 +6,11 @@ import Containtbar from "./Components/Containtbar";
 function App() {
   return (
     <div className="App">
-      <Grid container>
-        <Grid xl={3} xs={2} className="gridSideNavbar">
+      <Grid container className="Container">
+        <Grid xl={3} sm={3} md={3} xs={2} className="gridSideNavbar">
           <SideNavbar />
         </Grid>
-        <Grid xl={9} xs={10} className="gridContantbar">
+        <Grid xl={9} sm={9} md={9} xs={10} className="gridContantbar">
           <Containtbar />
         </Grid>
       </Grid>

@@ -98,11 +98,11 @@ const data2 = {
 
 const options2 = {
   responsive: true,
-  aspectRatio: 1.2,
-  cutout: 115,
+  cutout: 125,
   layout: {
     padding: {
       right: 10,
+      left: 30,
     },
   },
 };
@@ -338,9 +338,11 @@ const Containtbar = () => {
             <Divider variant="fullwidth" />
 
             <div className="doughnut_graph">
-              <Grid container>
-                <Grid item xs={8}>
-                  <Doughnut data={data2} options={options2} />
+              <Grid container className="doughnut_container">
+                <Grid item xs={8} className="doughnut_grid_1">
+                  <div className="wrapper">
+                    <Doughnut data={data2} options={options2} />
+                  </div>
                 </Grid>
                 <Grid className="doughnutlabelgrid" item xs={4}>
                   <div className="label">
