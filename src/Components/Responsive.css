@@ -998,13 +998,18 @@
   }
   .doughnut_container {
     align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
   }
   .doughnut_grid_1 {
-    max-width: 67% !important;
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
   }
 
   .doughnutlabelgrid > div {
-    margin-left: 4px !important;
+    margin-left: 24px !important;
     margin-top: 8px !important;
     width: 62%;
   }
@@ -1013,5 +1018,750 @@
   }
   .wrapper {
     width: 304px;
+  }
+  .doughnut_graph {
+    padding-bottom: 46px !important;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1280px) {
+  .box1_1 {
+    width: 33rem;
+    height: fit-content;
+  }
+
+  .box1 {
+    height: 99vh;
+  }
+  .progress_bar {
+    width: 26rem !important;
+  }
+  .textHead_main .textHead {
+    margin: 11px !important;
+  }
+
+  .textHead {
+    line-height: 39px !important;
+  }
+  .textmain {
+    margin-top: 10px;
+  }
+  .avtar {
+    margin-top: 10px;
+    margin-left: 4%;
+  }
+
+  .btngroup {
+    display: flex !important;
+    align-items: flex-start;
+    margin-bottom: 19px;
+  }
+
+  .textTitle {
+    margin-left: 11px;
+  }
+  .textmail {
+    margin-left: 11px;
+  }
+  .gridContantbar {
+    height: fit-content;
+  }
+  .Card_media {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card_1 > button {
+    height: 10rem !important;
+  }
+  .card_1 {
+    margin-left: 19px !important;
+    overflow: visible !important;
+    max-height: fit-content !important;
+  }
+  .card_2 {
+    margin-left: 19px !important;
+    max-height: 0% !important;
+  }
+  .gridSideNavbar {
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+  }
+  .card_icon_buttom {
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .card_button {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+  .Container {
+    flex-direction: row !important;
+  }
+  .doughnut_container {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .doughnut_grid_1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+  }
+
+  .doughnutlabelgrid > div {
+    margin-left: 24px !important;
+    margin-top: 8px !important;
+    width: 62%;
+  }
+  .doughnutlabelgrid_image {
+    width: 10% !important;
+  }
+  .wrapper {
+    width: 304px;
+  }
+  .doughnut_graph {
+    padding-bottom: 21px !important;
+  }
+}
+
+@media only screen and (min-width: 1281px) and (max-width: 1300px) {
+  .box1_1 {
+    width: 33rem;
+    height: fit-content;
+  }
+
+  .box1 {
+    height: 99vh;
+  }
+  .progress_bar {
+    width: 26rem !important;
+  }
+  .textHead_main .textHead {
+    margin: 11px !important;
+  }
+
+  .textHead {
+    line-height: 39px !important;
+  }
+  .textmain {
+    margin-top: 10px;
+  }
+  .avtar {
+    margin-top: 10px;
+    margin-left: 4%;
+  }
+
+  .btngroup {
+    display: flex !important;
+    align-items: flex-start;
+    margin-bottom: 19px;
+  }
+
+  .textTitle {
+    margin-left: 11px;
+  }
+  .textmail {
+    margin-left: 11px;
+  }
+  .gridContantbar {
+    height: fit-content;
+  }
+  .Card_media {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card_1 > button {
+    height: 10rem !important;
+  }
+  .card_1 {
+    margin-left: 19px !important;
+    overflow: visible !important;
+    max-height: fit-content !important;
+  }
+  .card_2 {
+    margin-left: 19px !important;
+    max-height: 0% !important;
+  }
+  .gridSideNavbar {
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+  }
+  .card_icon_buttom {
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .card_button {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+  .Container {
+    flex-direction: row !important;
+  }
+  .doughnut_container {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .doughnut_grid_1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+  }
+
+  .doughnutlabelgrid > div {
+    margin-left: 24px !important;
+    margin-top: 8px !important;
+    width: 62%;
+  }
+  .doughnutlabelgrid_image {
+    width: 10% !important;
+  }
+  .wrapper {
+    width: 304px;
+  }
+  .doughnut_graph {
+    padding-bottom: 14px !important;
+  }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1366px) {
+  .box1_1 {
+    width: 93rem;
+    height: fit-content;
+  }
+  .box1_2_1 {
+    height: 21rem !important;
+  }
+  .box1 {
+    height: 99vh;
+  }
+  .progress_bar {
+    width: 26rem !important;
+  }
+  .textHead_main .textHead {
+    margin: 11px !important;
+  }
+
+  .textHead {
+    line-height: 39px !important;
+  }
+  .textmain {
+    margin-top: 10px;
+  }
+  .avtar {
+    margin-top: 10px;
+    margin-left: 4%;
+  }
+
+  .btngroup {
+    display: flex !important;
+    align-items: flex-start;
+    margin-bottom: 19px;
+  }
+
+  .textTitle {
+    margin-left: 11px;
+  }
+  .textmail {
+    margin-left: 11px;
+  }
+  .gridContantbar {
+    height: fit-content;
+  }
+  .Card_media {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card_1 > button {
+    height: 10rem !important;
+  }
+  .card_1 {
+    margin-left: 19px !important;
+    overflow: visible !important;
+    max-height: fit-content !important;
+  }
+  .card_2 {
+    margin-left: 19px !important;
+    max-height: 0% !important;
+  }
+  .gridSideNavbar {
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+  }
+  .card_icon_buttom {
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .card_button {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+  .Container {
+    flex-direction: row !important;
+  }
+  .doughnut_container {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .doughnut_grid_1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+  }
+
+  .doughnutlabelgrid > div {
+    margin-left: 24px !important;
+    margin-top: 8px !important;
+    width: 62%;
+  }
+  .doughnutlabelgrid_image {
+    width: 10% !important;
+  }
+  .wrapper {
+    width: 304px;
+  }
+  .doughnut_graph {
+    padding-top: 19px !important;
+    padding-bottom: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1400px) {
+  .box1_1 {
+    width: 93rem;
+    height: fit-content;
+  }
+  .box1_2_1 {
+    height: 21rem !important;
+  }
+  .box1 {
+    height: 99vh;
+  }
+  .progress_bar {
+    width: 26rem !important;
+  }
+  .textHead_main .textHead {
+    margin: 11px !important;
+  }
+
+  .textHead {
+    line-height: 39px !important;
+  }
+  .textmain {
+    margin-top: 10px;
+  }
+  .avtar {
+    margin-top: 10px;
+    margin-left: 4%;
+  }
+
+  .btngroup {
+    display: flex !important;
+    align-items: flex-start;
+    margin-bottom: 19px;
+  }
+
+  .textTitle {
+    margin-left: 11px;
+  }
+  .textmail {
+    margin-left: 11px;
+  }
+  .gridContantbar {
+    height: fit-content;
+  }
+  .Card_media {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card_1 > button {
+    height: 10rem !important;
+  }
+  .card_1 {
+    margin-left: 19px !important;
+    overflow: visible !important;
+    max-height: fit-content !important;
+  }
+  .card_2 {
+    margin-left: 19px !important;
+    max-height: 0% !important;
+  }
+  .gridSideNavbar {
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+  }
+  .card_icon_buttom {
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .card_button {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+  .Container {
+    flex-direction: row !important;
+  }
+  .doughnut_container {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .doughnut_grid_1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+  }
+
+  .doughnutlabelgrid > div {
+    margin-left: 24px !important;
+    margin-top: 8px !important;
+    width: 62%;
+  }
+  .doughnutlabelgrid_image {
+    width: 10% !important;
+  }
+  .wrapper {
+    width: 304px;
+  }
+  .doughnut_graph {
+    padding-top: 19px !important;
+    padding-bottom: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1440px) {
+  .box1_1 {
+    width: 101rem;
+    height: fit-content;
+  }
+  .box1_2_1 {
+    height: 21rem !important;
+  }
+  .box1 {
+    height: 99vh;
+  }
+  .progress_bar {
+    width: 36rem !important;
+  }
+  .textHead_main .textHead {
+    margin: 11px !important;
+  }
+
+  .textHead {
+    line-height: 39px !important;
+  }
+  .textmain {
+    margin-top: 10px;
+  }
+  .avtar {
+    margin-top: 10px;
+    margin-left: 4%;
+  }
+
+  .btngroup {
+    display: flex !important;
+    align-items: flex-start;
+    margin-bottom: 19px;
+  }
+
+  .textTitle {
+    margin-left: 11px;
+  }
+  .textmail {
+    margin-left: 11px;
+  }
+  .gridContantbar {
+    height: fit-content;
+  }
+  .Card_media {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card_1 > button {
+    height: 10rem !important;
+  }
+  .card_1 {
+    margin-left: 19px !important;
+    overflow: visible !important;
+    max-height: fit-content !important;
+  }
+  .card_2 {
+    margin-left: 19px !important;
+    max-height: 0% !important;
+  }
+  .gridSideNavbar {
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+  }
+  .card_icon_buttom {
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .card_button {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+  .Container {
+    flex-direction: row !important;
+  }
+  .doughnut_container {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .doughnut_grid_1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+  }
+
+  .doughnutlabelgrid > div {
+    margin-left: 24px !important;
+    margin-top: 8px !important;
+    width: 62%;
+  }
+  .doughnutlabelgrid_image {
+    width: 10% !important;
+  }
+  .wrapper {
+    width: 304px;
+  }
+  .doughnut_graph {
+    padding-top: 19px !important;
+    padding-bottom: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  .box1_1 {
+    width: 122rem;
+    height: fit-content;
+  }
+  .box1_2_1 {
+    height: 21rem !important;
+  }
+  .box1 {
+    height: 99vh;
+  }
+  .progress_bar {
+    width: 41rem !important;
+  }
+  .textHead_main .textHead {
+    margin: 11px !important;
+  }
+
+  .textHead {
+    line-height: 39px !important;
+  }
+  .textmain {
+    margin-top: 10px;
+  }
+  .avtar {
+    margin-top: 10px;
+    margin-left: 4%;
+  }
+
+  .btngroup {
+    display: flex !important;
+    align-items: flex-start;
+    margin-bottom: 19px;
+  }
+
+  .textTitle {
+    margin-left: 11px;
+  }
+  .textmail {
+    margin-left: 11px;
+  }
+  .gridContantbar {
+    height: fit-content;
+  }
+  .Card_media {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card_1 > button {
+    height: 10rem !important;
+  }
+  .card_1 {
+    margin-left: 19px !important;
+    overflow: visible !important;
+    max-height: fit-content !important;
+  }
+  .card_2 {
+    margin-left: 19px !important;
+    max-height: 0% !important;
+  }
+  .gridSideNavbar {
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+  }
+  .card_icon_buttom {
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .card_button {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+  .Container {
+    flex-direction: row !important;
+  }
+  .doughnut_container {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .doughnut_grid_1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+  }
+
+  .doughnutlabelgrid > div {
+    margin-left: 24px !important;
+    margin-top: 8px !important;
+    width: 62%;
+  }
+  .doughnutlabelgrid_image {
+    width: 10% !important;
+  }
+  .wrapper {
+    width: 304px;
+  }
+  .doughnut_graph {
+    padding-top: 19px !important;
+    padding-bottom: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 1681px) and (max-width: 1920px) {
+  .box1_1 {
+    width: 122rem;
+    height: fit-content;
+  }
+  .box1_2_1 {
+    height: 24rem !important;
+  }
+  .box1 {
+    height: 88vh;
+  }
+  .dropdown {
+    margin: 20px !important;
+  }
+  .progress_bar {
+    width: 47rem !important;
+  }
+  .textHead_main .textHead {
+    margin: 11px !important;
+  }
+
+  .textHead {
+    line-height: 39px !important;
+  }
+  .textmain {
+    margin-top: 10px;
+  }
+  .avtar {
+    margin-top: 10px;
+    margin-left: 2%;
+  }
+
+  .btngroup {
+    display: flex !important;
+    align-items: flex-start;
+    margin-bottom: 19px;
+  }
+
+  .textTitle {
+    margin-left: 11px;
+  }
+  .textmail {
+    margin-left: 11px;
+  }
+  .gridContantbar {
+    height: fit-content;
+  }
+  .Card_media {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .card_1 > button {
+    height: 11rem !important;
+  }
+  .card_2 > button {
+    height: 11rem !important;
+  }
+  .card_1 {
+    margin-left: 31px !important;
+    overflow: visible !important;
+    max-height: fit-content !important;
+  }
+  .card_2 {
+    margin-left: 30px !important;
+    max-height: 0% !important;
+  }
+  .gridSideNavbar {
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+  }
+  .card_icon_buttom {
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .card_button {
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+  }
+  .Container {
+    flex-direction: row !important;
+  }
+  .doughnut_container {
+    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .doughnut_grid_1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+  }
+
+  .doughnutlabelgrid > div {
+    margin-left: 24px !important;
+    margin-top: 8px !important;
+    width: 62%;
+  }
+  .doughnutlabelgrid_image {
+    width: 10% !important;
+  }
+  .wrapper {
+    width: 304px;
+  }
+  .doughnut_graph {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
   }
 }
